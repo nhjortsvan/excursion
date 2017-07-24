@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-    <title>Excursion</title>
+    <meta charset="utf-8">
+    <link href="./resources/styles.css" type="text/css" rel="stylesheet">
+    <title>Broadway</title>
   </head>
   <body>
-    <div>
-      <!-- <h1>Discover hidden places in the world around you</h1> -->
-      <h1>Discover the beauty of Denmark</h1>
-      <a href="#">Download Hakon's Travel Guide (Coming soon!)</a>
-    </div>
-    <br/>
-	<div>
-      <video src="./resources/videos/excursion.mp4" autoplay="true" loop="true"></video>
-	</div>
-	<div>
-	  <h2>Your personal travel guide</h2>
-	  <p>Excursion remembers places you like, and recommends new points of interest around you</p>
-	  <img src="./resources/images/camp.jpg"/>
-    </div>
-    <br/>
-    <div>
-	  <img src="./resources/images/phone.png"/>
-	  <h2>Coming Soon for iPhone and Android</h2>
-	  <a href="#">Download Excursion (Coming Soon!)</a>
-	  <p id="copy">&copy; Excursion</p>
-    </div>
+      <div class="top">
+        <h1>Broadway Design</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#main">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+      </div>
+      <div id="main" class ="main">
+        <h2>Our Process</h2>
+        <ul>
+          <li>
+            <img src="./resources/images/identify.svg"/>
+            <h3>Identify</h3>
+            <p>We focus on the most important details</p>
+          </li>
+
+          <li>
+            <img src="./resources/images/understand.svg"/>
+            <h3>Understand</h3>
+            <p>We study our projects inside and out</p>
+          </li>
+
+          <li>
+            <img src="./resources/images/execute.svg"/>
+            <h3>Execute</h3>
+            <p>We put everything we have into our work</p>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <h3 id="unique_header">Designed in New York</h3>
+          <ul>
+            <li id="work" class="work">
+              <h3>work</h3>
+              <p>Coming Soon</p>
+            </li>
+            <li id="team" class="team">
+              <h3>Team</h3>
+              <p>We're Hiring</p>
+            </li>
+            <li id="contact" class="contact">
+              <h3>Contact</h3>
+              <p>Phone:(555)-555-5555</p>
+              <p>E-mail: test@example.com</p>
+              <p>Twitter: @test</p>
+            </li>
+          </ul>
+      </div>
+      <nav class="bottom_navigation">
+          <a id="copyright">&copy; Broadway 2017<a>
+          <a href="#">Home</a>
+          <a href="#main">About</a>
+          <a href="#work">Work</a>
+          <a href="#team">Team</a>
+          <a href="#contact">_Contact_</a>
+      </nav>
   </body>
 </html>
